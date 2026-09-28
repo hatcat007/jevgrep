@@ -46,6 +46,11 @@ const providers = {
     url: "https://opencode.ai/zen/v1/systemone",
     model: "jev-1.13",
   },
+  experiential: {
+    label: "Experiential Labs",
+    url: "https://api.experientiallabs.ai/v1/systemone",
+    model: "jev-latest",
+  },
 };
 const fixtureKey = "installed-http-fixture-key";
 const forbidden = "INSTALLED_FIXTURE_IGNORED_CONTENT_MUST_NEVER_UPLOAD";

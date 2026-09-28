@@ -19,6 +19,11 @@ export const providers = {
     baseURL: "https://opencode.ai/zen/v1",
     model: "jev-1.13",
   },
+  experiential: {
+    label: "Experiential Labs",
+    baseURL: "https://api.experientiallabs.ai/v1",
+    model: "jev-latest",
+  },
 } as const;
 
 export type ProviderId = keyof typeof providers;
